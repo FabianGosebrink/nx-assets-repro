@@ -1,0 +1,1 @@
+shared file should be overwritten with `apps/copytestnx/src/assets/text.txt`

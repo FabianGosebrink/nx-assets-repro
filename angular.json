@@ -19,7 +19,16 @@
             "aot": false,
             "assets": [
               "apps/copytestnx/src/favicon.ico",
-              "apps/copytestnx/src/assets"
+              {
+                "glob": "*.*",
+                "input": "libs/shared/",
+                "output": "/"
+              },
+              {
+                "glob": "*.*",
+                "input": "apps/copytestnx/src/assets",
+                "output": "/"
+              }
             ],
             "styles": ["apps/copytestnx/src/styles.css"],
             "scripts": []
